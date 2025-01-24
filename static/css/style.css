@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: white; /* White text */
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: #00aaff; /* Light blue for headers */
+}
+
+/* Form Styles */
+form {
+    background-color: #1e1e1e; /* Slightly lighter background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: white;
+    background-color: #222;
+    cursor: pointer;
+}
+
+button {
+    background-color: black;
+    border: 1px solid #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007BFF; /* Blue on hover */
+}
+
+/* Login Button Styles */
+.login-btn {
+    background-color: black;
+    border: 1px solid #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.login-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.login-btn:hover {
+    background-color: #007BFF;
+}
+
+/* Result List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #1e1e1e;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #00ff88; /* Light green for results */
+}
+
+/* Link Styles */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
